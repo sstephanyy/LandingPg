@@ -4,7 +4,7 @@ import './landing.css';
 function FirstLanding() {
   return (
     <div>
-      <Page>BitCode</Page>
+      <Page>BitCENT</Page>
     </div>
   );
 }
