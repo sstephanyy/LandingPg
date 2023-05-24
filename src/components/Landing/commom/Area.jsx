@@ -5,17 +5,15 @@ const OutsideNavbar = styled.div`
   justify-content: center;
   background-color: #EF4444;
   width: 100%;
-  padding: 0px 210px;`
+  `
 
 const InsideNav = styled.div`
   padding-left: 7px;
   padding-right: 7px;
   width: 100%;
+  max-width: 1000px;
   background-color: green;
 
-  @media (min-width: 1280px) {
-    width: 1200px;
-  }
 `;
 
 export default function Area (props) {
