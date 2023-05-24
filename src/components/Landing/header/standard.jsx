@@ -1,5 +1,9 @@
+import Logo from "../../Landing/commom/Logo";
+
 export default function Header () {
   return (
-  <div></div>
+  <div>
+    <Logo/>
+  </div>
   );
 }

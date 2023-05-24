@@ -1,12 +1,9 @@
+import Landing from './components/Landing/standard';
 import { Page } from './components/Template/Page';
 import './landing.css';
 
 function FirstLanding() {
-  return (
-    <div>
-      <Page>BitCENT</Page>
-    </div>
-  );
+  return <Landing />
 }
 
 export default FirstLanding;
