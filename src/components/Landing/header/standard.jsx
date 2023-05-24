@@ -1,10 +1,14 @@
-import Area from "../../Landing/commom/Area";
-import Logo from "../../Landing/commom/Logo";
+import Area from '../../Landing/commom/Area';
+import Logo from '../../Landing/commom/Logo';
+import { NavRoots } from '../../Landing/header/NavRoots';
 
-export default function Header () {
+export default function Header() {
   return (
-  <Area>
-    <Logo/> 
-  </Area>  
+    <Area>
+      <div className="navbar-items">
+        <Logo />
+        <NavRoots />
+      </div>
+    </Area>
   );
 }

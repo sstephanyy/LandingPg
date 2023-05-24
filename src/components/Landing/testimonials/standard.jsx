@@ -1,5 +1,7 @@
-export default function Testimonials () {
+import Area from '../../Landing/commom/Area';
+
+export default function Testimonials() {
   return (
-  <div></div>
+      <Area></Area>
   );
 }

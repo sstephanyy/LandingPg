@@ -1,5 +1,7 @@
+import Area from "../../Landing/commom/Area";
+
 export default function Trending () {
   return (
-  <div></div>
+    <Area></Area>
   );
 }

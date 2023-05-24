@@ -11,7 +11,7 @@ const Custompage = styled.div`
 export function Page(props) {
   return (
     <div>
-      <Custompage>{props.children}</Custompage>{' '}
+      <Custompage>{props.children}</Custompage>
       {/* the props.children expression represents the content that is passed between the opening and closing tags of a component.*/}
     </div>
   );

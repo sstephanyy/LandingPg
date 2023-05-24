@@ -1,6 +1,7 @@
+import Area from "../../Landing/commom/Area";
+
 export default function Footer () {
   return (
-    <div>
-    </div>
+    <Area></Area>
   );
 }

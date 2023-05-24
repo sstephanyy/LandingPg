@@ -3,8 +3,9 @@ import styled from 'styled-components';
 const OutsideNavbar = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #EF4444;
   width: 100%;
+  background-color: black;
+
   `
 
 const InsideNav = styled.div`
@@ -12,9 +13,9 @@ const InsideNav = styled.div`
   padding-right: 7px;
   width: 100%;
   max-width: 1000px;
-  background-color: green;
 
 `;
+
 
 export default function Area (props) {
   return (
