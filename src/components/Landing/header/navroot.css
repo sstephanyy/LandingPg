@@ -2,13 +2,12 @@
   color: #acb5bd;
   text-decoration: none;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .items-container {
   display: flex;
   gap: 45px;
-
 }
 
 .navbar-items {
@@ -18,16 +17,16 @@
   height: 58px;
 }
 
-.items.btn{
-  background-image: linear-gradient(to right, #7c3aed, #34d399);
+.items.btn {
+  background-image: linear-gradient(to right, #7c3aed, #32c08c); /* #34d399 */
   width: 80px;
-  height: 26px;
+  height: 29px;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.items.btn > svg{
+.items.btn > svg {
   margin-right: 6px;
+  stroke-width: 3px; /* Increase the stroke  */
 }

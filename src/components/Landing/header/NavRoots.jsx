@@ -6,10 +6,9 @@ import '../../Landing/header/navroot.css';
 
 export const NavRoots = () => {
   return (
-    <div>
       <Router>
         <div className="items-container">
-          <Link to="#" className="items">
+          <Link to="#home" className="items">
             Home
           </Link>
           <Link to="#benefits" className="items">
@@ -44,6 +43,5 @@ export const NavRoots = () => {
           <Route path="#benefits" element={<Benefits />} />
         </Routes>
       </Router>
-    </div>
   );
 };
