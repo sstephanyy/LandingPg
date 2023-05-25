@@ -7,6 +7,7 @@ const OutsideNavbar = styled.div`
   background-color: black;
   position: fixed;
   z-index: 50; 
+
   `
 
 const InsideNav = styled.div`
