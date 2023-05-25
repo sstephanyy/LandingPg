@@ -5,7 +5,7 @@ const Custompage = styled.div`
   flex-direction: column;
   min-height: 100vh;
   background: linear-gradient(to right, #2d2727, #000, #2d2727);
- 
+
 `;
 
 export function Page(props) {

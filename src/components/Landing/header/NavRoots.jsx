@@ -20,7 +20,7 @@ export const NavRoots = () => {
           <Link to="#" className="items btn">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-brand-google"
+              className="icon icon-tabler icon-tabler-brand-google"
               width="17"
               height="17"
               viewBox="0 0 24 24"

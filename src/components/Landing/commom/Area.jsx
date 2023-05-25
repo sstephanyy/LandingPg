@@ -5,9 +5,7 @@ const OutsideNavbar = styled.div`
   justify-content: center;
   width: 100%;
   background-color: black;
-  position: fixed;
   z-index: 50; 
-
   `
 
 const InsideNav = styled.div`
@@ -15,7 +13,6 @@ const InsideNav = styled.div`
   padding-right: 7px;
   width: 100%;
   max-width: 1000px;
-
 `;
 
 
