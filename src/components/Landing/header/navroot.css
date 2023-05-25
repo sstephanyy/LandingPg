@@ -1,3 +1,18 @@
-link{
-  color: white;
+.items {
+  color: #acb5bd;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.items-container {
+  display: flex;
+  gap: 45px;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
 }

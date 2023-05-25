@@ -8,7 +8,7 @@ export const NavRoots = () => {
   return (
     <div>
       <Router>
-        <div>
+        <div className="items-container">
           <Link to="#" className="items">Home</Link>
           <Link to="#benefits" className="items">Benefits</Link>
           <Link to="#testimonials" className="items">Testimonials</Link>
