@@ -8,7 +8,7 @@ export default function Header() {
       <div className="navbar-items">
         <Logo />
         <NavRoots />
-      </div>
+      </div> 
     </Area>
   );
 }

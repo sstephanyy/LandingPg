@@ -5,7 +5,8 @@ const OutsideNavbar = styled.div`
   justify-content: center;
   width: 100%;
   background-color: black;
-
+  position: fixed;
+  z-index: 50; 
   `
 
 const InsideNav = styled.div`
