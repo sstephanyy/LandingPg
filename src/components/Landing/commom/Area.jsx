@@ -4,8 +4,6 @@ const OutsideNavbar = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: black;
-  z-index: 50; 
   `
 
 const InsideNav = styled.div`
