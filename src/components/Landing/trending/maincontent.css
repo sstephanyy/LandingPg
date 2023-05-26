@@ -45,6 +45,10 @@
   left: 3px;
 }
 
+.highlight-text{
+  color: black;
+}
+
 /*
 .relative-item {
   display: flex;
