@@ -9,7 +9,7 @@ export default function MainContent() {
           <span>Best way to organize your money</span>
           <span></span>
         </div>
-
+ 
         <div className="descrip-text">
           <p>Financial platform that makes your life easier!!</p>
         </div>
