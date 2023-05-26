@@ -8,20 +8,30 @@
 }
 
 .text-title{
-  font-size: 1.67rem;
+  font-size: 1.77rem;
   max-width: 37%;
   line-height: 1;
+}
+
+.text-title, .text-descrip {
   position: relative;
 }
 
-.mark-text{
-  position: absolute;
-  top: 1.325rem;
-  left: 0;
+.text-title {
+  display: inline-block;
+}
+
+.text-title:before {
+  content: " ";
+  display: block;
+  top: 0px;
+  margin-bottom: -32px;
+  left: 0px;
   width: 40%;
-  border-bottom: 0.2rem solid #7c3aed;
+  border-bottom: 0.3rem solid #7c3aed;
   transform: rotate(-2deg)
 }
+
 
 .highlight-container, .highlight-text {
   position: relative;
