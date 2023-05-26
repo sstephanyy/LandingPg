@@ -5,7 +5,9 @@ import '../../Landing/trending/maincontent.css';
 export default function Trending() {
   return (
     <Area id="home">
-      <MainContent />
+      <div className="main-content">
+        <MainContent />
+      </div>
     </Area>
   );
 }

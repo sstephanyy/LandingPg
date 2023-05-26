@@ -5,7 +5,7 @@ export default function MainContent() {
     <div className="all-content">
       <div className="left-side">
         <div className="text-title">
-          <span></span>
+          <span className="mark-text"></span>
           <span>Best way to organize your money</span>
           <span></span>
         </div>

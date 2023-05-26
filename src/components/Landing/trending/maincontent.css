@@ -1,2 +1,24 @@
-.all-content{
+.main-content{
+  height: 360px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 300;
+}
+
+.text-title{
+  font-size: 1.67rem;
+  max-width: 37%;
+  line-height: 1;
+  position: relative;
+}
+
+.mark-text{
+  position: absolute;
+  top: 1.365rem;
+  left: 0;
+  width: 40%;
+  border-bottom: 0.2rem solid #7c3aed;
+  transform: rotate(-2deg)
 }
