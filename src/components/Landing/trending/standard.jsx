@@ -2,6 +2,7 @@ import Area from '../../Landing/commom/Area';
 import { ResponsiveImage } from '../../Landing/commom/responsiveImages';
 import MainContent from '../../Landing/trending/MainContent';
 import '../../Landing/trending/maincontent.css';
+import '../../Landing/commom/responsiveimage.css';
 
 export default function Trending() {
 
