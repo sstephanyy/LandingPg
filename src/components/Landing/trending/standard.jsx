@@ -8,7 +8,7 @@ export default function Trending() {
 
   const imageUrl = 'https://github.com/transformacaodev/bitcent/blob/main/public/principal.jpg?raw=true';
 
-  return (
+  return ( 
     <Area id="home">
       <div className="main-content">
         <MainContent />
