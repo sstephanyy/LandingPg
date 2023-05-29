@@ -13,7 +13,7 @@ export default function Trending() {
       <div className="main-content">
         <MainContent />
         <ResponsiveImage src={imageUrl} alt="First Image"/>
-      </div>
+      </div> 
     </Area>
   );
 }

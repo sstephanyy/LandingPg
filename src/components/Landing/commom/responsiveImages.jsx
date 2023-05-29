@@ -4,4 +4,4 @@ export function ResponsiveImage({ src, alt }) {
       <img className="img-main" src={src} alt={alt}/>
     </div>
   ); 
-}
+} 
